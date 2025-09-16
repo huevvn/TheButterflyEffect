@@ -7,8 +7,8 @@
 int main() {
     LorenzParams params{10.0, 8.0/3.0, 28.0};
     LorenzState state{0.0, 1.0, 1.05};
-    double dt = 0.01;
-    int steps = 10000;
+    double dt = 0.001;
+    int steps = 100000;
     std::string method;
 
     std::cout << "Technique for solving ODEs\n"
