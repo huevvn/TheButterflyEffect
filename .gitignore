@@ -1,0 +1,60 @@
+# Build directories
+build/
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled Object files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+.env
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# CSV output files (optional - uncomment if you don't want to track simulation outputs)
+# *.csv
